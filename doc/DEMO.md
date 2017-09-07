@@ -23,7 +23,7 @@ in your Kubernetes cluster, it can be installed using Deis Workflow's `deis pull
 ### Configuring and Running Steward CF
 
 Once a broker is deployed, configuring and starting Steward CF is fairly simple. See the [pre-built
-manifest](https://github.com/deis/steward-cf/blob/master/manifests/steward-cf-template.yaml)
+manifest](https://github.com/deisthree/steward-cf/blob/master/manifests/steward-cf-template.yaml)
 that contains all the configuration necessary to run Steward CF. Simply change each config field in
 the `spec.template.spec.containers[0].env` field and run `kubectl create -f
 manifests/steward-cf-template.yaml` to install.
@@ -104,5 +104,5 @@ above to:
   - Ensure that the appropriate resources are in the appropriate state after each action. For
   example, the appropriate command should be run to successful completion in command mode.
 
-[sample-broker]: https://github.com/deis/cf-sample-broker
+[sample-broker]: https://github.com/deisthree/cf-sample-broker
 [cfbrokerapi]: https://docs.Cloud Foundry.org/services/api.html

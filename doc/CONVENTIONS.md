@@ -43,7 +43,7 @@ Common scopes:
 
 Read more:
 - The [Deis Guidelines]
-  (https://github.com/deis/workflow/blob/master/src/contributing/submitting-a-pull-request.md)
+  (https://github.com/deisthree/workflow/blob/master/src/contributing/submitting-a-pull-request.md)
   were the inspiration for this section.
 - Karma Runner [defines](http://karma-runner.github.io/0.13/dev/git-commit-msg.html) the semantic
   commit message idea.

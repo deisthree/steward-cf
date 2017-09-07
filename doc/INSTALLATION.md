@@ -16,7 +16,7 @@ backing broker may be deployed within your Kubernetes cluster or elsewhere.
 
 If you're trying Steward CF for the first time or are hacking on Steward CF, the Steward team has
 provided a trivial [sample broker][cf-sample-broker]. See that project's
-[README.md](https://github.com/deis/cf-sample-broker/blob/master/README.md) for installation
+[README.md](https://github.com/deisthree/cf-sample-broker/blob/master/README.md) for installation
 instructions.
 
 ## Deploy Steward CF
@@ -72,5 +72,5 @@ $ make dev-deploy
 For details on Steward CF's pure Kubernetes-based workflow, please refer to
 [README.md](./README.md).
 
-[cf-sample-broker]: https://github.com/deis/cf-sample-broker
+[cf-sample-broker]: https://github.com/deisthree/cf-sample-broker
 [cfbroker]: https://docs.cloudfoundry.org/services/overview.html
